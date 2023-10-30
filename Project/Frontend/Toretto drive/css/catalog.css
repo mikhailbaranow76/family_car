@@ -1,0 +1,142 @@
+/*Common styles*/
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: arial, serif;
+	hyphens: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*Header styles*/
+
+.container{
+	max-width: 100%;
+}
+.header-line{
+	min-height: 70px;
+	box-shadow: 0 1px 5px gray;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.title{
+	display: flex;
+	align-items: center;
+	margin-left: 4%;
+	font-size: 23px;
+	font-weight: bold;
+}
+.navlist{
+	padding-left: 20%;
+}
+.nav{
+	display: flex;
+}
+.nav-item{
+	margin-right: 60px;
+	font-weight: bold;
+	font-size: 19px;
+}
+.nav-item:last-child{
+	margin-right: 0px;
+}
+.nav-item a:hover{
+	color: #5e4fff;
+	transition: 0.3s;
+}
+.lk-button{
+	margin-right: 2%;
+}
+.lk-button a{
+	font-size: 18px;
+	font-weight: bold;
+}
+.lk-button a:hover{
+	color: #5e4fff;
+	transition: 0.3s;
+}
+
+/*Main styles*/
+
+.main-name{
+	display: flex;
+	justify-content: center;
+	margin: 60px 0 60px 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+.rows-container{
+	max-width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.car-row{
+	display: flex;
+	align-items: center;
+	padding: 50px 30px 50px 30px;
+	border: 6px dashed #5e4fff;
+	border-radius: 40px;
+	margin-bottom: 70px;
+}
+.car-row img{
+	max-width:	350px;
+	border: 5px dotted black ;
+	border-radius: 10px;
+	margin-right: 30px;
+}
+.car-info{
+	max-width: 300px;
+}
+.car-list{
+	font-size: 20px;
+}
+.car-item{
+	margin-bottom: 10px;
+}
+.car-item:first-child{
+	font-weight: bold;
+	font-size: 30px;
+}
+.car-row button{
+	min-width: 300px;
+	margin-left: 300px;
+	padding: 30px 50px 30px 50px;
+	border: 3px solid #5e4fff;
+	border-radius: 10px;
+	background: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/*Footer styles*/
+footer {
+	background: lightgrey;
+	padding: 30px 50px 30px 50px;
+}
+.footer-info-container{
+	max-width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-main{
+	display: flex;
+	flex-direction: column;
+}
+.footer-name{
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.documents a:hover{
+	color: #5e4fff;
+	transition: 0.2s;
+}

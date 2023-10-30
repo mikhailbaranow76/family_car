@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: arial, serif;
+	hyphens: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+	max-width: 100%;
+}
+.header-line{
+	min-height: 70px;
+	box-shadow: 0 1px 5px gray;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.title{
+	display: flex;
+	align-items: center;
+	margin-left: 4%;
+	font-size: 23px;
+	font-weight: bold;
+}
+.navlist{
+	padding-left: 20%;
+}
+.nav{
+	display: flex;
+}
+.nav-item{
+	margin-right: 60px;
+	font-weight: bold;
+	font-size: 19px;
+}
+.nav-item:last-child{
+	margin-right: 0px;
+}
+.nav-item a:hover{
+	color: #5e4fff;
+	transition: 0.3s;
+}
+.lk-button{
+	margin-right: 2%;
+}
+.lk-button a{
+	font-size: 18px;
+	font-weight: bold;
+}
+.lk-button a:hover{
+	color: #5e4fff;
+	transition: 0.3s;
+}
+.main-image{
+	max-width: 100%;
+	height: auto;
+}
+.main-slogan{
+	position: absolute;
+	left: 200px;
+	top: 100px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Playfair Displat, sans-serif;
+
+}
+.img-container{
+	position: relative;
+	margin-bottom: 90px;
+}
+.main-slogan{
+	rotate: 1deg;
+}
+.lots-container{
+	max-width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+.lots-main-name{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+.lot-box{
+	max-width: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 3px solid black;
+	border-radius: 30px;
+	margin-bottom: 40px;
+	padding: 10px 20px 10px 20px;
+}
+.lot-box img{
+	max-width: 360px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.lot-name{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.lot-info{
+	max-width: 350px;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.lot-box button{
+	padding: 20px 120px 20px 120px;
+	margin-bottom: 20px;
+	background: lightgrey;
+	border: none;
+	border-radius: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.footer-info-container{
+	max-width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+footer {
+	background: lightgrey;
+	padding: 30px 50px 30px 50px;
+}
+.footer-info-container{
+	max-width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-main{
+	display: flex;
+	flex-direction: column;
+}
+.footer-name{
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.documents a:hover{
+	color: #5e4fff;
+	transition: 0.2s;
+}
